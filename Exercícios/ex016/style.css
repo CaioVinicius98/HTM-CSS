@@ -1,28 +1,31 @@
-@charset "UTF-8"
-
-* {
-    font-family: Arial, Helvetica, sans-serif ;
-    /*height: 100% */
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-image: linear-gradient(to right, #DEF0EE, #9ED6D7);
+    background-image: linear-gradient(to left,#8FC1B5,#589A8D);
 }
- main{
+main{
     background-color: white;
+    margin:auto;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px #3d6f707a;
+    box-shadow:5px 5px 15px #146551;
     width: 600px;
     padding: 10px;
-    margin: auto;
- }
- h1{
-    color: #025959;
-    text-align: center;
-    text-shadow: 1px 1px 0px #02494975;
- }
- h2{
-    color: #D1645D;
- }
+}
 p{
-    text-align:justify
+    text-align:justify;
+}
+h1{
+text-align:center;
+color:#589A8D;
+text-shadow:1px 1px 0px #589A8D;
+}
+h2{
+color:#146551;
+background-image: linear-gradient(to right, #8fc1b5af,transparent);
+}
+h3{
+    text-align:center;
+    color:#146551;
 }
